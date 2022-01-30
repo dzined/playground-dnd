@@ -1,0 +1,30 @@
+{
+  "name": "dnd",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^5.0.1",
+    "@dnd-kit/modifiers": "^5.0.0",
+    "@dnd-kit/sortable": "^6.0.0",
+    "@dnd-kit/utilities": "^3.1.0",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.3.1",
+    "@mui/material": "^5.3.1",
+    "lodash": "^4.17.21",
+    "next": "12.0.9",
+    "react": "17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.9"
+  }
+}
